@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro - 799bet</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(120deg, #000, #0a0a0a);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .box {
+      background-color: #1a1a1a;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #00ffcc55;
+      width: 300px;
+      text-align: center;
+    }
+    .box h2 {
+      margin-bottom: 20px;
+      color: #00ffcc;
+    }
+    .box input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+    }
+    .box button {
+      background-color: #00ffcc;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Cadastro</h2>
+    <input type="text" placeholder="Usuário" />
+    <input type="password" placeholder="Senha" />
+    <input type="password" placeholder="Confirmar Senha" />
+    <button onclick="cadastrar()">Criar Conta</button>
+  </div>
+
+  <script>
+    function cadastrar() {
+      alert("Conta criada! Agora faça login.");
+      window.location.href = "login.html";
+    }
+  </script>
+</body>
+</html>
